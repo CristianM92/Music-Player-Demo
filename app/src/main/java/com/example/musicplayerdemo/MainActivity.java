@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         music = MediaPlayer.create(this, R.raw.sound);
-
     }
     public void musicplay(View v) {
         music.start();
