@@ -18,18 +18,16 @@ public class MainActivity extends AppCompatActivity {
         music = MediaPlayer.create(this, R.raw.sound);
 
     }
-    public void musicplay(View v)
-    {
+    public void musicplay(View v) {
         music.start();
     }
 
-    public void musicpause(View v)
-    {
+    public void musicpause(View v) {
         music.pause();
     }
 
     public void musicstop(View v) {
         music.stop();
-        music = MediaPlayer.create(this, R.raw.sound);
+        music = MediaPlayer.create(this, R.raw.sound);   
     }
 }
